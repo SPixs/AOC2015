@@ -15,7 +15,6 @@ public class Day05 {
 		List<String> lines = Files.readAllLines(Path.of("input_day05.txt"));
 
 		// Part 1
-		int result = 0;
 		long startTime = System.nanoTime();
 		
 		final Character[] vowels = new Character[] { 'a', 'e', 'i', 'o', 'u' };
@@ -44,8 +43,6 @@ public class Day05 {
 		filtered = filtered.filter(l -> {
 			for (int i=0;i<l.length()-2;i++) { if (l.charAt(i) == l.charAt(i+2)) return true; } return false;
 		});
-		
-//		filtered.forEach(l -> System.out.println(l));
 		
 		System.out.println("Result part 2 : " + filtered.count() + " in " + TimeUnit.NANOSECONDS.toMillis((System.nanoTime() - startTime)) + "ms");
 	}
