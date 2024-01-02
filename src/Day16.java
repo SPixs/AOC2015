@@ -13,7 +13,7 @@ public class Day16 {
 
 	public static void main(String[] args) throws IOException {
 
-		List<String> lines = Files.readAllLines(Path.of("input_day16.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day16.txt"));
 
 		// Part 1
 		long startTime = System.nanoTime();

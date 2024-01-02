@@ -10,7 +10,7 @@ public class Day10 {
 
 	public static void main(String[] args) throws IOException {
 
-		List<String> lines = Files.readAllLines(Path.of("input_day10.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day10.txt"));
 
 		String sequence = lines.get(0);
 		

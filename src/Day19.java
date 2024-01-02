@@ -16,7 +16,7 @@ public class Day19 {
 
 	public static void main(String[] args) throws IOException {
 
-		List<String> lines = Files.readAllLines(Path.of("input_day19.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day19.txt"));
 
 		List<String> rules = lines.subList(0, lines.size()-2);
 		String molecule = lines.get(lines.size()-1);

@@ -9,7 +9,7 @@ import java.util.List;
 public class Day04 {
 
 	public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
-		List<String> lines = Files.readAllLines(Path.of("input_day04.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day04.txt"));
 
 		String input = lines.get(0);
 

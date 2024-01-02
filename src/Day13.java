@@ -14,7 +14,7 @@ public class Day13 {
 
 	public static void main(String[] args) throws IOException {
 
-		List<String> lines = Files.readAllLines(Path.of("input_day13.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day13.txt"));
 
 		// Part 1
 		long startTime = System.nanoTime();

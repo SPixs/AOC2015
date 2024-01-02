@@ -12,7 +12,7 @@ public class Day06 {
 
 	public static void main(String[] args) throws IOException {
 
-		List<String> lines = Files.readAllLines(Path.of("input_day06.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day06.txt"));
 
 		boolean[][] lights = new boolean[1000][1000];
 

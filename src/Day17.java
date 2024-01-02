@@ -11,7 +11,7 @@ public class Day17 {
 
 	public static void main(String[] args) throws IOException {
 
-		List<String> lines = Files.readAllLines(Path.of("input_day17.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day17.txt"));
 
 		List<Integer> containers = lines.stream().map(Integer::parseInt).collect(Collectors.toList());
 		

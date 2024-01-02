@@ -10,7 +10,7 @@ public class Day25 {
 
 	public static void main(String[] args) throws IOException {
 
-		List<String> lines = Files.readAllLines(Path.of("input_day25.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day25.txt"));
 		
 		// To continue, please consult the code grid in the manual.  Enter the code at row 2981, column 3075.
 		Pattern pattern = Pattern.compile("To continue, please consult the code grid in the manual.  Enter the code at row (\\d+), column (\\d+).");
@@ -31,10 +31,5 @@ public class Day25 {
 			value = value % 33554393;
 		}
 		System.out.println("Result part 1 : " + value + " in " + TimeUnit.NANOSECONDS.toMillis((System.nanoTime() - startTime)) + "ms");
-
-		// Part 2
-		startTime = System.nanoTime();
-
-		System.out.println("Result part 2 : " + value + " in " + TimeUnit.NANOSECONDS.toMillis((System.nanoTime() - startTime)) + "ms");
 	}	
 }

@@ -8,7 +8,7 @@ import java.util.Set;
 public class Day03 {
 
 	public static void main(String[] args) throws IOException {
-		List<String> lines = Files.readAllLines(Path.of("input_day03.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day03.txt"));
 
 		String line = lines.get(0);
 		Point point = new Point(0, 0);

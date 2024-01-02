@@ -8,7 +8,7 @@ public class Day11 {
 
 	public static void main(String[] args) throws IOException {
 
-		List<String> lines = Files.readAllLines(Path.of("input_day11.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day11.txt"));
 
 		String password = lines.get(0);
 		

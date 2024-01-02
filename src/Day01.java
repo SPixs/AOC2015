@@ -6,7 +6,7 @@ import java.util.List;
 public class Day01 {
 
 	public static void main(String[] args) throws IOException {
-		List<String> lines = Files.readAllLines(Path.of("input_day01.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day01.txt"));
 
 		String line = lines.get(0);
 		long openedCount = line.chars().filter(c -> c == '(').count();

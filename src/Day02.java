@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 public class Day02 {
 
 	public static void main(String[] args) throws IOException {
-		List<String> lines = Files.readAllLines(Path.of("input_day02.txt"));
+		List<String> lines = Files.readAllLines(Path.of("input/input_day02.txt"));
 
 		int surface = 0;
 		int ribbon = 0;
